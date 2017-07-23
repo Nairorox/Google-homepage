@@ -1,0 +1,117 @@
+*{
+user-select:none;
+}
+body{
+margin:0;
+}
+
+#topbar{
+	text-align:center;
+	margin-top:10px;
+	width:390px;
+	height:40px;
+	float:right;
+} 
+
+a{
+margin-left:20px;
+margin-top:0px;
+text-decoration:none;
+color:gray;
+}
+
+a:hover{
+text-decoration:underline;
+}
+
+insidbar>a{
+	color:green;
+}
+.menu{
+	position:absolute;
+	width:30px;
+	margin-left:20px;
+	height:30px;
+	background-image:url("images/options.png");
+	background-position:-132px -43px;
+	margin-top:5px;
+}
+button{
+	background-color:rgb(66, 133, 244);
+	border:0;
+	margin-top:2px;
+	border-radius:3px;
+	color:white;
+	font-size:15px;
+	width:100px;	
+	height:30px;
+	margin-left:95px;
+}
+
+
+#doodle{
+	clear:both;
+	width:700px;
+	margin-left:auto;
+	margin-right:auto;
+	height:200px;
+	background-image:url("images/googlelogo.png");
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:300px;
+}
+
+#input{
+	margin-left:auto;
+	margin-right:auto;
+	border:0;
+	width:700px;
+	height:80px;
+}
+#input>input{
+	width:100%;
+	height:30px;
+	box-shadow:2px 2px 13px black;
+}
+
+.search{
+	box-sizing:border-box;
+	display:inline-block;
+	margin-top:20px;
+	width:150px;
+	height:30px;
+	background-color:#f2f2f2;
+	margin-left:130px;
+	border-radius:5px;
+	text-align:center;
+	color:gray;
+}
+
+.search:hover{
+border-bottom: solid 0px rgb(242,242,242)
+}
+
+#botbar{
+	text-align:center;
+	border-top:solid 1px lightgray;
+	position:absolute;
+	width:100%;
+	bottom:0;
+	height:40px;
+	background-color:rgb(242, 242, 242);
+}
+
+.leftb{
+	padding:5px;
+	margin-top:5px;
+	width:300px;
+	float:left;
+}
+
+.rightb{
+	margin-right:0;
+	padding:5px;
+	margin-top:5px;
+	width:500px;
+	float:right;
+}
